@@ -9,8 +9,7 @@ https://medium.com/@FloSloot/your-own-local-copy-of-aws-w-node-js-6d98a10533a8
 
 ## Notes
 * LocalStack uses the 'us-east-1' region by default
-* The endpoint param is important! 
-* If it wasn't defined AWS would request the production endpoint
+* The endpoint param is important! If it wasn't defined AWS would request the production endpoint
 
 ## Setup
 1. `npm install`
