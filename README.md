@@ -14,8 +14,8 @@ https://medium.com/@FloSloot/your-own-local-copy-of-aws-w-node-js-6d98a10533a8
 ## Setup
 1. `npm install`
 2. Install localstack and start: `sh ./localstack-install.sh`
-   * This will start running a docker instance mimicking a local AWS environment
-3. In another terminal, run the aws setup: `sh ./localstack-env-setup.sh`    
+3. Run localstack `localstack start` This will start running a docker instance mimicking a local AWS environment
+4. In another terminal, run the aws setup: `sh ./localstack-env-setup.sh`    
 
 ## Running
 1. Start queue consumer: `node consumer.js`  
